@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<!-- saved from url=(0018)https://unur.site/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover Mongolia&#39;s breathtaking summer landscapes — from the Western mountains to the Gobi Desert.">
+  <meta name="p:domain_verify" content="8a89b214ca993b0794a83490a684aa16">
+  <title>Wild Mongolia — Summer Journeys</title>
+
+  <!-- AdSense -->
+  <script src="./zurag/f.txt"></script><script async="" src="./zurag/f(1).txt" crossorigin="anonymous" data-checked-head="true"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link href="./zurag/css2" rel="stylesheet">
+
+  <style>
+    :root {
+      --sand: #C9A96E;
+      --deep: #1A120B;
+      --sky: #4A7FA5;
+      --steppe: #7B9E6B;
+      --rust: #B85C38;
+      --cream: #F5EDD8;
+      --dark-card: #231A11;
+      --border: rgba(201,169,110,0.3);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--deep);
+      color: var(--cream);
+      font-family: 'Crimson Pro', serif;
+      font-size: 18px;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 18px 48px;
+      background: rgba(26,18,11,0.94);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem; font-weight: 900;
+      color: var(--sand); letter-spacing: 0.06em;
+      text-decoration: none;
+    }
+    .nav-links { display: flex; gap: 28px; list-style: none; }
+    .nav-links a {
+      color: var(--cream); text-decoration: none;
+      font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase;
+      opacity: 0.75; transition: opacity 0.2s, color 0.2s;
+    }
+    .nav-links a:hover { opacity: 1; color: var(--sand); }
+
+    /* HERO */
+    #home {
+      min-height: 100vh;
+      display: flex; flex-direction: column; justify-content: flex-end;
+      padding: 80px 64px 80px;
+      position: relative; overflow: hidden;
+      background: linear-gradient(165deg, #0D1B2A 0%, #1A120B 45%, #2A1A08 100%);
+    }
+    .hero-bg-pattern {
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 70% 40%, rgba(74,127,165,0.15) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 80% at 10% 80%, rgba(201,169,110,0.12) 0%, transparent 55%);
+    }
+    .hero-tag {
+      font-size: 0.78rem; letter-spacing: 0.28em; text-transform: uppercase;
+      color: var(--sand); margin-bottom: 20px; opacity: 0.9;
+      animation: fadeUp 1s ease both;
+    }
+    .hero-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(3.5rem, 9vw, 9rem);
+      font-weight: 900; line-height: 0.92;
+      color: var(--cream); position: relative; z-index: 1;
+      animation: fadeUp 1s 0.2s ease both;
+    }
+    .hero-title em { color: var(--sand); font-style: italic; }
+    .hero-sub {
+      max-width: 540px; margin-top: 28px;
+      font-size: 1.2rem; color: rgba(245,237,216,0.7);
+      font-weight: 300; font-style: italic;
+      animation: fadeUp 1s 0.4s ease both;
+    }
+    .hero-cta {
+      display: inline-block; margin-top: 40px;
+      padding: 14px 42px;
+      border: 1px solid var(--sand); color: var(--sand);
+      text-decoration: none; font-size: 0.85rem;
+      letter-spacing: 0.18em; text-transform: uppercase;
+      transition: all 0.3s;
+      animation: fadeUp 1s 0.6s ease both;
+    }
+    .hero-cta:hover { background: var(--sand); color: var(--deep); }
+    .hero-scroll {
+      position: absolute; bottom: 32px; right: 64px;
+      writing-mode: vertical-rl; font-size: 0.72rem;
+      letter-spacing: 0.22em; text-transform: uppercase;
+      color: rgba(201,169,110,0.45); z-index: 1;
+    }
+
+    /* SECTION BASE */
+    .section-label {
+      font-size: 0.73rem; letter-spacing: 0.32em; text-transform: uppercase;
+      color: var(--sand); margin-bottom: 12px; display: block;
+    }
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 4vw, 3.4rem);
+      font-weight: 700; line-height: 1.1; margin-bottom: 24px;
+    }
+    .divider {
+      width: 56px; height: 2px;
+      background: linear-gradient(90deg, var(--sand), transparent);
+      margin-bottom: 48px;
+    }
+
+    /* INTRO */
+    #intro {
+      background: linear-gradient(180deg, #150E08 0%, #1A120B 100%);
+      display: grid; grid-template-columns: 1fr 1fr; gap: 80px;
+      align-items: center; padding: 100px 64px;
+    }
+    .intro-img-wrap { position: relative; }
+    .img-placeholder {
+      background: var(--dark-card);
+      border: 2px dashed var(--border);
+      display: flex; align-items: center; justify-content: center;
+      flex-direction: column; gap: 14px;
+      color: rgba(201,169,110,0.4);
+      font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase;
+      text-align: center;
+    }
+    .img-placeholder svg { width: 48px; height: 48px; opacity: 0.4; }
+    .intro-img-wrap .img-placeholder { aspect-ratio: 4/5; width: 100%; }
+    .intro-img-wrap::after {
+      content: ''; position: absolute;
+      bottom: -20px; right: -20px;
+      width: 60%; height: 60%;
+      border: 1px solid var(--border); z-index: -1;
+    }
+    .intro-text p { color: rgba(245,237,216,0.8); margin-bottom: 18px; }
+    .intro-stats {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 40px;
+    }
+    .stat { border-left: 2px solid var(--sand); padding-left: 16px; }
+    .stat-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem; font-weight: 900; color: var(--sand);
+    }
+    .stat-label { font-size: 0.82rem; color: rgba(245,237,216,0.55); }
+
+    /* REGION CARDS */
+    #regions { background: #100B06; padding: 80px 64px 40px; }
+    .regions-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; margin-top: 48px;
+    }
+    .region-card {
+      position: relative; overflow: hidden;
+      aspect-ratio: 3/4; cursor: pointer;
+      background: var(--dark-card);
+    }
+    .region-card:nth-child(1) { grid-column: span 2; aspect-ratio: unset; min-height: 400px; }
+    .region-card .img-placeholder {
+      width: 100%; height: 100%; aspect-ratio: unset;
+      position: absolute; inset: 0;
+      transition: transform 0.6s ease;
+    }
+    .region-card:hover .img-placeholder { transform: scale(1.05); }
+    .region-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(0deg, rgba(26,18,11,0.94) 0%, rgba(26,18,11,0.05) 55%);
+      padding: 32px; display: flex; flex-direction: column; justify-content: flex-end;
+    }
+    .region-num {
+      font-size: 0.68rem; letter-spacing: 0.3em; color: var(--sand);
+      text-transform: uppercase; margin-bottom: 8px;
+    }
+    .region-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.7rem; font-weight: 700; margin-bottom: 6px;
+    }
+    .region-tagline { font-size: 0.92rem; color: rgba(245,237,216,0.65); font-style: italic; }
+
+    /* REGION FULL SECTIONS */
+    .region-full {
+      padding: 80px 64px;
+      border-bottom: 1px solid var(--border);
+      display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start;
+    }
+    .region-full:nth-child(even) { direction: rtl; }
+    .region-full:nth-child(even) > * { direction: ltr; }
+    .region-full-img .img-placeholder { width: 100%; aspect-ratio: 4/3; }
+    .region-full h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem; font-weight: 700; margin-bottom: 16px;
+    }
+    .region-full h2 span { color: var(--sand); }
+    .region-full p { color: rgba(245,237,216,0.8); margin-bottom: 16px; }
+    .highlights { list-style: none; margin-top: 24px; }
+    .highlights li {
+      padding: 10px 0; border-bottom: 1px solid var(--border);
+      display: flex; gap: 12px; align-items: start;
+      font-size: 0.93rem; color: rgba(245,237,216,0.75);
+    }
+    .highlights li::before {
+      content: '◆'; color: var(--sand); font-size: 0.58rem; margin-top: 7px; flex-shrink: 0;
+    }
+
+    /* BEST TIME */
+    #best-time {
+      background: linear-gradient(135deg, #0D1B2A, #1A2A1A);
+      text-align: center; padding: 80px 64px;
+    }
+    .months { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-top: 40px; }
+    .month {
+      padding: 12px 18px; border: 1px solid var(--border);
+      font-size: 0.82rem; letter-spacing: 0.1em; transition: all 0.3s;
+    }
+    .month.peak { background: var(--sand); color: var(--deep); border-color: var(--sand); font-weight: 700; }
+    .month.good { border-color: var(--steppe); color: var(--steppe); }
+
+    /* TIPS */
+    #tips { background: #1A120B; padding: 100px 64px; }
+    .tips-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin-top: 48px; }
+    .tip-card {
+      background: var(--dark-card); padding: 32px 24px;
+      border: 1px solid var(--border); border-top: 3px solid var(--sand);
+    }
+    .tip-icon { font-size: 2rem; margin-bottom: 16px; }
+    .tip-card h3 { font-family: 'Playfair Display', serif; font-size: 1.2rem; margin-bottom: 12px; }
+    .tip-card p { font-size: 0.88rem; color: rgba(245,237,216,0.7); }
+
+    /* AD */
+    .ad-wrap { padding: 20px 64px; background: #150E08; }
+    .ad-placeholder {
+      min-height: 90px; border: 1px dashed var(--border);
+      display: flex; align-items: center; justify-content: center;
+      color: rgba(201,169,110,0.25); font-size: 0.72rem; letter-spacing: 0.1em;
+      max-width: 728px; margin: 0 auto;
+    }
+
+    /* CONTACT */
+    #contact { background: #150E08; padding: 100px 64px; }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 80px; }
+    .contact-info h3 {
+      font-family: 'Playfair Display', serif; font-size: 1.4rem; margin-bottom: 12px;
+    }
+    .contact-info p { color: rgba(245,237,216,0.7); margin-bottom: 32px; font-size: 0.95rem; }
+    .contact-detail { display: flex; gap: 16px; margin-bottom: 20px; align-items: start; }
+    .contact-detail-icon { color: var(--sand); font-size: 1.2rem; margin-top: 2px; }
+    .contact-detail-text { font-size: 0.93rem; color: rgba(245,237,216,0.8); }
+    .contact-form { display: flex; flex-direction: column; gap: 16px; }
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form select {
+      background: var(--dark-card); border: 1px solid var(--border);
+      color: var(--cream); padding: 14px 18px; font-family: 'Crimson Pro', serif;
+      font-size: 1rem; outline: none; transition: border-color 0.2s; width: 100%;
+    }
+    .contact-form input:focus,
+    .contact-form textarea:focus { border-color: var(--sand); }
+    .contact-form textarea { resize: vertical; min-height: 130px; }
+    .contact-form select option { background: var(--dark-card); }
+    .contact-form button {
+      background: var(--sand); color: var(--deep);
+      border: none; padding: 16px 40px; cursor: pointer;
+      font-family: 'Crimson Pro', serif; font-size: 1rem;
+      font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+      transition: background 0.2s; align-self: start;
+    }
+    .contact-form button:hover { background: #deba88; }
+
+    /* PRIVACY */
+    #privacy { padding: 100px 64px; background: #1A120B; }
+    .privacy-inner { max-width: 780px; }
+    #privacy h2 { font-family: 'Playfair Display', serif; font-size: 2rem; margin-bottom: 24px; }
+    #privacy h3 { font-family: 'Playfair Display', serif; font-size: 1.25rem; margin: 32px 0 12px; color: var(--sand); }
+    #privacy p { color: rgba(245,237,216,0.8); margin-bottom: 14px; font-size: 0.97rem; }
+    #privacy ul { padding-left: 22px; }
+    #privacy li { color: rgba(245,237,216,0.8); margin-bottom: 8px; font-size: 0.97rem; }
+    #privacy a { color: var(--sand); }
+
+    /* FOOTER */
+    footer {
+      background: #0D0906; padding: 60px 64px 40px;
+      border-top: 1px solid var(--border);
+    }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 60px; margin-bottom: 48px; }
+    .footer-brand h2 {
+      font-family: 'Playfair Display', serif; font-size: 1.8rem;
+      color: var(--sand); margin-bottom: 16px;
+    }
+    .footer-brand p { font-size: 0.88rem; color: rgba(245,237,216,0.45); }
+    .footer-col h4 {
+      font-size: 0.75rem; letter-spacing: 0.22em; text-transform: uppercase;
+      color: var(--sand); margin-bottom: 20px;
+    }
+    .footer-col ul { list-style: none; }
+    .footer-col ul li { margin-bottom: 10px; }
+    .footer-col ul a {
+      color: rgba(245,237,216,0.55); text-decoration: none;
+      font-size: 0.9rem; transition: color 0.2s;
+    }
+    .footer-col ul a:hover { color: var(--sand); }
+    .footer-bottom {
+      border-top: 1px solid var(--border); padding-top: 24px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 0.78rem; color: rgba(245,237,216,0.3);
+    }
+
+    /* HIDDEN PINTEREST */
+    .hidden-pint { position: absolute; left: -9999px; top: -9999px; }
+
+    /* ANIMATIONS */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(28px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── HAMBURGER MENU (hidden on desktop) ── */
+    .nav-hamburger {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      width: 44px; height: 44px;
+      background: none; border: none; cursor: pointer;
+      padding: 8px;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .nav-hamburger span {
+      display: block; width: 100%; height: 2px;
+      background: var(--sand);
+      transition: transform 0.3s, opacity 0.3s;
+      border-radius: 2px;
+    }
+    .nav-hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-hamburger.open span:nth-child(2) { opacity: 0; }
+    .nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* ── TABLET (max 1024px) ── */
+    @media (max-width: 1024px) {
+      nav { padding: 16px 32px; }
+      .nav-links { gap: 18px; }
+      .nav-links a { font-size: 0.8rem; }
+
+      #home { padding: 100px 40px 64px; }
+      #intro { padding: 80px 40px; gap: 48px; }
+      #regions { padding: 64px 40px 32px; }
+      .region-full { padding: 64px 40px; gap: 48px; }
+      #best-time { padding: 64px 40px; }
+      #tips { padding: 80px 40px; }
+      .ad-wrap { padding: 16px 40px; }
+      #contact { padding: 80px 40px; }
+      #privacy { padding: 80px 40px; }
+      footer { padding: 48px 40px 32px; }
+
+      .tips-grid { grid-template-columns: repeat(2, 1fr); }
+      .footer-top { gap: 40px; }
+    }
+
+    /* ── MOBILE (max 768px) ── */
+    @media (max-width: 768px) {
+      body { font-size: 16px; }
+
+      /* Nav: show hamburger, hide links by default */
+      nav {
+        padding: 14px 20px;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .nav-hamburger { display: flex; }
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+        padding: 8px 0 16px;
+        border-top: 1px solid var(--border);
+        margin-top: 12px;
+      }
+      .nav-links.open { display: flex; }
+      .nav-links li { width: 100%; }
+      .nav-links a {
+        display: block;
+        padding: 12px 4px;
+        font-size: 0.9rem;
+        opacity: 1;
+        border-bottom: 1px solid rgba(201,169,110,0.1);
+      }
+
+      /* Hero */
+      #home { padding: 100px 20px 56px; min-height: 100svh; }
+      .hero-title { font-size: clamp(2.8rem, 12vw, 5rem); line-height: 0.95; }
+      .hero-sub { font-size: 1.05rem; margin-top: 20px; max-width: 100%; }
+      .hero-cta {
+        margin-top: 28px; padding: 16px 32px;
+        font-size: 0.82rem; display: block; text-align: center;
+        width: 100%; max-width: 280px;
+      }
+      .hero-scroll { display: none; }
+      .hero-tag { font-size: 0.7rem; letter-spacing: 0.18em; }
+
+      /* Sections */
+      #intro {
+        grid-template-columns: 1fr;
+        gap: 36px;
+        padding: 56px 20px;
+      }
+      .intro-img-wrap::after { display: none; } /* remove decorative border on mobile */
+      .intro-stats { grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 28px; }
+      .stat-num { font-size: 1.6rem; }
+
+      #regions { padding: 56px 20px 28px; }
+      .regions-grid {
+        grid-template-columns: 1fr;
+        gap: 3px;
+      }
+      .region-card { aspect-ratio: 16/9; min-height: unset; }
+      .region-card:nth-child(1) { grid-column: span 1; min-height: unset; aspect-ratio: 16/9; }
+      .region-name { font-size: 1.4rem; }
+      .region-overlay { padding: 20px; }
+
+      /* Region full details */
+      .region-full {
+        grid-template-columns: 1fr;
+        gap: 28px;
+        padding: 48px 20px;
+        direction: ltr !important;
+      }
+      .region-full:nth-child(even) { direction: ltr; }
+      .region-full:nth-child(even) > * { direction: ltr; }
+      .region-full h2 { font-size: 2rem; }
+      .region-full-img .img-placeholder { aspect-ratio: 16/9; }
+
+      /* Best time */
+      #best-time { padding: 56px 20px; }
+      .months { gap: 6px; }
+      .month { padding: 10px 12px; font-size: 0.78rem; letter-spacing: 0.05em; }
+
+      /* Tips */
+      #tips { padding: 56px 20px; }
+      .tips-grid { grid-template-columns: 1fr; gap: 16px; }
+      .tip-card { padding: 24px 20px; }
+
+      /* Ad */
+      .ad-wrap { padding: 12px 20px; }
+
+      /* Contact */
+      #contact { padding: 56px 20px; }
+      .contact-grid { grid-template-columns: 1fr; gap: 36px; }
+      .contact-form input,
+      .contact-form textarea,
+      .contact-form select {
+        font-size: 16px; /* prevents iOS zoom on focus */
+        padding: 14px 16px;
+      }
+      .contact-form button {
+        width: 100%; text-align: center; align-self: stretch;
+        padding: 18px 24px; font-size: 1rem;
+      }
+
+      /* Privacy */
+      #privacy { padding: 56px 20px; }
+      #privacy h2 { font-size: 1.7rem; }
+
+      /* Footer */
+      footer { padding: 40px 20px 28px; }
+      .footer-top { grid-template-columns: 1fr; gap: 28px; }
+      .footer-bottom {
+        flex-direction: column; gap: 8px;
+        text-align: center;
+      }
+
+      /* Section typography */
+      .section-title { font-size: clamp(1.7rem, 6vw, 2.4rem); }
+      .section-label { font-size: 0.68rem; }
+      .divider { margin-bottom: 32px; }
+    }
+
+    /* ── SMALL PHONES (max 390px) ── */
+    @media (max-width: 390px) {
+      .hero-title { font-size: clamp(2.4rem, 13vw, 3.5rem); }
+      .intro-stats { grid-template-columns: 1fr 1fr; gap: 12px; }
+      .stat-num { font-size: 1.4rem; }
+      .month { padding: 8px 9px; font-size: 0.72rem; }
+      .region-name { font-size: 1.2rem; }
+    }
+
+    /* ── TOUCH: larger tap targets ── */
+    @media (hover: none) and (pointer: coarse) {
+      .nav-links a { padding: 13px 4px; }
+      .hero-cta { padding: 18px 32px; }
+      .contact-form button { padding: 18px; }
+      .month { padding: 11px 14px; }
+    }
+
+    /* New sections responsive */
+    @media (max-width: 768px) {
+      #about > div > div[style*="grid-template-columns:1fr 1fr"] { 
+        display: block !important; 
+      }
+      #about > div > div[style*="grid-template-columns:1fr 1fr"] > div:first-child { 
+        margin-bottom: 18px; 
+      }
+      #about > div > div[style*="display:flex"] { 
+        gap: 24px !important; 
+      }
+      #about, #articles, #faq {
+        padding: 56px 20px !important;
+      }
+      #articles article > div[style*="grid-template-columns:1fr 1fr"],
+      #faq > div[style*="grid-template-columns:1fr 1fr"] {
+        display: block !important;
+      }
+      #articles article > div > div:first-child {
+        margin-bottom: 18px;
+      }
+      #faq > div > div {
+        margin-bottom: 16px;
+      }
+    }
+
+  </style>
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9nrunKdU5m96PSN1XsSGr3qOP0lvPFUB2AiAylCDlN5DTl17uDFkpQuHj1AFtgWLxpLaiBZuhrtb2WOu7ofHwEAAACKeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A93bovR+QVXNx2/38qDbmeYYf1wdte9EO37K9eMq3r+541qo0byhYU899BhPB7Cv9QqD7wIbR1B6OAc9kEfYCA4AAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A1S5fojrAunSDrFbD8OfGmFHdRFZymSM/1ss3G+NEttCLfHkXvlcF6LGLH8Mo5PakLO1sCASXU1/gQf6XGuTBgwAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"></head>
+<body>
+
+  <!-- Hidden Pinterest / QR verification (required by user) -->
+  <div class="hidden-pint" aria-hidden="true">
+    <h1>QR code login instruction: <a href="https://help.pinterest.com/en/article/log-in-and-out-of-pinterest">Instruction</a></h1>
+  </div>
+
+  <!-- ── NAV ── -->
+  <nav id="main-nav">
+    <a class="nav-logo" href="https://unur.site/#home">Wild Mongolia</a>
+    <button class="nav-hamburger" id="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="https://unur.site/#home" class="nav-link">Home</a></li>
+      <li><a href="https://unur.site/#regions-detail" class="nav-link">Regions</a></li>
+      <li><a href="https://unur.site/#best-time" class="nav-link">Plan</a></li>
+      <li><a href="https://unur.site/#contact" class="nav-link">Contact</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#articles" class="nav-link">Articles</a></li>
+      <li><a href="#faq" class="nav-link">FAQ</a></li>
+      <li><a href="https://unur.site/#privacy" class="nav-link">Privacy</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="home">
+    <div class="hero-bg-pattern"></div>
+    <div style="position:relative;z-index:1">
+      <p class="hero-tag">Summer Journeys — June · July · August</p>
+      <h1 class="hero-title">Discover<br><em>Wild</em><br>Mongolia</h1>
+      <p class="hero-sub">Endless steppes, ancient cultures, and a sky so vast it changes everything you thought you knew about space.</p>
+      <a class="hero-cta" href="https://unur.site/#regions-detail">Explore Regions</a>
+    </div>
+    <p class="hero-scroll">Scroll to explore ↓</p>
+  </section>
+
+  <!-- ── AD BANNER ── -->
+  <div class="ad-wrap" style="height: auto !important;">
+    <ins class="adsbygoogle" style="display: block; height: 280px;" data-ad-client="ca-pub-8081351372251773" data-ad-slot="" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done" data-ad-status="unfilled"><div id="aswift_1_host" style="border: none; height: 280px; width: 1200px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: visible;"><iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:1200px;height:280px;min-height:auto;max-height:none;min-width:auto;max-width:none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1200" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./zurag/ads.html" data-google-container-id="a!2" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true"></iframe></div></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+
+  <!-- ── INTRO ── -->
+  <section id="intro">
+    <div class="intro-img-wrap">
+      <img src="./zurag/1.jpg" alt="Western Mongolia" style="width:100%; height:100%; object-fit:cover; display:block;">
+    </div>
+    <div class="intro-text">
+      <span class="section-label">Why Mongolia in Summer</span>
+      <h2 class="section-title">Where the Sky Meets the Endless Earth</h2>
+      <div class="divider"></div>
+      <p>Mongolia's brief, glorious summer transforms the steppe into a living mosaic of wildflowers, galloping horses, and crystal rivers fed by melting mountain snows. Between June and August, temperatures are mild, nomadic families welcome guests into their gers, and the legendary Naadam Festival brings the nation to life.</p>
+      <p>From the ice-capped peaks of the Altai in the west to the golden dunes of the Gobi in the south, each region offers a completely different face of this extraordinary country — one of the world's last great wildernesses.</p>
+      <div class="intro-stats">
+        <div class="stat"><div class="stat-num">1.5M</div><div class="stat-label">km² of steppe</div></div>
+        <div class="stat"><div class="stat-num">3M</div><div class="stat-label">Horses in the wild</div></div>
+        <div class="stat"><div class="stat-num">250+</div><div class="stat-label">Sunny days per year</div></div>
+        <div class="stat"><div class="stat-num">5</div><div class="stat-label">Distinct regions</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── REGION CARDS ── -->
+  <section id="regions">
+    <span class="section-label">The Five Regions</span>
+    <h2 class="section-title">Choose Your Adventure</h2>
+    <div class="divider"></div>
+    <div class="regions-grid">
+      <!-- Card 1 — Western (wide) -->
+      <div class="region-card">
+        <img src="./zurag/Tavan_Bogd_Mountain.jpg" alt="Western Mongolia" style="width:100%; height:100%; object-fit:cover; display:block;">
+        <div class="region-overlay">
+          <p class="region-num">01 / 05</p>
+          <h3 class="region-name">Western Mongolia</h3>
+          <p class="region-tagline">Altai peaks, eagle hunters &amp; turquoise lakes</p>
+        </div>
+      </div>
+      <!-- Card 2 — Northern -->
+      <div class="region-card">
+        <img src="./zurag/3.jpg" alt="Western Mongolia" style="width:100%; height:100%; object-fit:cover; display:block;">
+        <div class="region-overlay">
+          <p class="region-num">02 / 05</p>
+          <h3 class="region-name">Northern Mongolia</h3>
+          <p class="region-tagline">Taiga forests, reindeer herders &amp; Lake Khövsgöl</p>
+        </div>
+      </div>
+      <!-- Card 3 — Central -->
+      <div class="region-card">
+        <img src="./zurag/2.jpg" alt="Western Mongolia" style="width:100%; height:100%; object-fit:cover; display:block;">
+        <div class="region-overlay">
+          <p class="region-num">03 / 05</p>
+          <h3 class="region-name">Central Mongolia</h3>
+          <p class="region-tagline">Khangai highlands, Naadam &amp; nomadic culture</p>
+        </div>
+      </div>
+      <!-- Card 4 — Eastern -->
+      <div class="region-card">
+      <img src="./zurag/4.jpg" alt="Western Mongolia" style="width:100%; height:100%; object-fit:cover; display:block;">
+        <div class="region-overlay">
+          <p class="region-num">04 / 05</p>
+          <h3 class="region-name">Eastern Mongolia</h3>
+          <p class="region-tagline">Boundless steppe, wild horses &amp; Chinggis's homeland</p>
+        </div>
+      </div>
+      <!-- Card 5 — Gobi -->
+      <div class="region-card">
+      <img src="./zurag/5.jpg" alt="Western Mongolia" style="width:100%; height:100%; object-fit:cover; display:block;">
+        <div class="region-overlay">
+          <p class="region-num">05 / 05</p>
+          <h3 class="region-name">The Gobi Desert</h3>
+          <p class="region-tagline">Singing dunes, dinosaur fossils &amp; vast silence</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── REGION DETAILS ── -->
+  <div id="regions-detail">
+
+    <!-- WESTERN -->
+    <div class="region-full" style="background:#1A120B">
+      <div class="region-full-img">
+      <img src="./zurag/Tavan_Bogd_Mountain.jpg" alt="Western Mongolia" style="width:100%; height:100%; object-fit:cover; display:block;">
+      </div>
+      <div>
+        <span class="section-label">01 — Western Region</span>
+        <h2>Western<br><span>Mongolia</span></h2>
+        <div class="divider"></div>
+        <p>The Western region is Mongolia's most dramatic landscape — a world of snow-capped Altai peaks, ancient petroglyphs, and the legendary Kazakh eagle hunters who have practiced their art for over a thousand years. Here, three countries converge and the rivers run ice-cold even in July.</p>
+        <p>Bayan-Ölgii province is home to Mongolia's Kazakh minority, whose vibrant textiles, falconry traditions, and warm hospitality offer a cultural depth unlike anywhere else in the country. Lake Tolbo and the Tavan Bogd massif — with its five eternal glaciers — are the jewels of this remote corner.</p>
+        <ul class="highlights">
+          <li>Tavan Bogd National Park — Five sacred peaks &amp; glaciers</li>
+          <li>Kazakh Eagle Festival — Traditional falconry practice runs in summer</li>
+          <li>Khoton &amp; Khurgan Lakes — Turquoise twin lakes in the Altai</li>
+          <li>Ancient Turkic stone balbal monuments scattered across the steppe</li>
+          <li>White-water rafting on the fast-flowing Hovd River</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- NORTHERN -->
+    <div class="region-full" style="background:#150E08">
+      <div class="region-full-img">
+      <img src="./zurag/3.jpg" alt="Western Mongolia" style="width:100%; height:100%; object-fit:cover; display:block;">
+      </div>
+      <div>
+        <span class="section-label">02 — Northern Region</span>
+        <h2>Northern<br><span>Mongolia</span></h2>
+        <div class="divider"></div>
+        <p>In the north, Siberian taiga bleeds into the Mongolian steppe along the shores of Lake Khövsgöl — sometimes called the "Blue Pearl of Mongolia." This vast freshwater lake holds nearly 70% of Mongolia's fresh water and remains crystal clear throughout the summer, surrounded by ancient pine forests and rolling meadows.</p>
+        <p>Deeper still into the northern wilderness live the Tsaatan reindeer herders — one of the last reindeer-herding peoples on Earth. Reaching their camps requires a horse or reindeer trek through dense taiga, but few experiences in the world compare to sharing tea inside a tepee surrounded by these gentle giants.</p>
+        <ul class="highlights">
+          <li>Lake Khövsgöl — Kayaking, fishing &amp; shoreline horse treks</li>
+          <li>Tsaatan reindeer herder camps deep in the taiga</li>
+          <li>Darkhad Valley — Remote wilderness &amp; shamanic traditions</li>
+          <li>Amarbayasgalant Monastery — Stunning 18th-century Manchu-era complex</li>
+          <li>Migratory bird watching along the pristine lake shores</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- CENTRAL -->
+    <div class="region-full" style="background:#1A120B">
+      <div class="region-full-img">
+<img src="./zurag/2.jpg" alt="Western Mongolia" style="width:100%; height:100%; object-fit:cover; display:block;">
+      </div>
+      <div>
+        <span class="section-label">03 — Central Region</span>
+        <h2>Central<br><span>Mongolia</span></h2>
+        <div class="divider"></div>
+        <p>Central Mongolia is the cultural and geographical heart of the nation — home to Ulaanbaatar, the ancient capital Karakorum, and the rolling Khangai mountain range where the steppe is greenest and nomadic life is most accessible to visitors. The summer Naadam Festival, held each July, celebrates the "three manly games" of wrestling, horse racing, and archery.</p>
+        <p>The Orkhon Valley — a UNESCO World Heritage Site — follows a river lined with waterfalls, ancient ruins, and ger camps where families have herded horses across the same grasslands for centuries. This is the ideal region for first-time visitors seeking to understand Mongolia's living soul.</p>
+        <ul class="highlights">
+          <li>Naadam Festival (July 11–13) — National celebration in Ulaanbaatar</li>
+          <li>Orkhon Valley UNESCO Heritage Site — Waterfalls &amp; historic ruins</li>
+          <li>Erdene Zuu Monastery — Mongolia's oldest surviving Buddhist monastery</li>
+          <li>Karakorum ruins — Former capital of Chinggis Khan's vast empire</li>
+          <li>Authentic ger-stay experiences with nomadic herding families</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- EASTERN -->
+    <div class="region-full" style="background:#150E08">
+      <div class="region-full-img">
+<img src="./zurag/4.jpg" alt="Western Mongolia" style="width:100%; height:100%; object-fit:cover; display:block;">
+      </div>
+      <div>
+        <span class="section-label">04 — Eastern Region</span>
+        <h2>Eastern<br><span>Mongolia</span></h2>
+        <div class="divider"></div>
+        <p>The Eastern steppe is one of the last great undisturbed grassland ecosystems on Earth — a place where you can drive for hours without seeing a single fence. This is the birthplace of Chinggis Khan and the heartland of Mongolian nomadic identity. In summer, the grass is lush, the rivers run full, and the horizon stretches infinitely in every direction.</p>
+        <p>The Eastern steppe hosts the world's largest remaining population of white-tailed gazelle — over a million animals migrating in herds that can darken the horizon. Buir Lake teems with fish, and the Khentii Mountains shelter dense forests home to bear, wolf, and Siberian ibex.</p>
+        <ul class="highlights">
+          <li>Dadal — Birthplace of Chinggis Khan, surrounded by forested hills</li>
+          <li>White-tailed gazelle migrations — Spectacular herds June to August</li>
+          <li>Buir Lake — Rich fishing grounds on the Chinese border</li>
+          <li>Khentii Sacred Mountains — Ancient shamanist pilgrimage sites</li>
+          <li>Complete solitude — One of Asia's least-visited and most pristine regions</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- GOBI -->
+    <div class="region-full" style="background:#1A120B">
+      <div class="region-full-img">
+<img src="./zurag/5.jpg" alt="Western Mongolia" style="width:100%; height:100%; object-fit:cover; display:block;">
+      </div>
+      <div>
+        <span class="section-label">05 — Gobi Desert</span>
+        <h2>The<br><span>Gobi Desert</span></h2>
+        <div class="divider"></div>
+        <p>The Gobi is not the rolling sea of dunes many imagine — it's a vast, dramatic cold desert of shattered rock, sculpted canyons, and surprising oases. Summer days can exceed 40°C while nights cool sharply, and the clarity of the star-filled night sky here is unmatched anywhere on Earth. The Gobi is also a paleontologist's paradise: the world's greatest dinosaur fossil discoveries have been made in this ancient landscape.</p>
+        <p>Khongoryn Els — the legendary "Singing Dunes" — rise up to 300 meters and produce a haunting drone when wind crosses their crests. The Flaming Cliffs burn deep red at sunset, and the rare Gobi bear (Mazaalai) still roams the most remote corners of this silent world.</p>
+        <ul class="highlights">
+          <li>Khongoryn Els — The towering, haunting Singing Sand Dunes</li>
+          <li>Flaming Cliffs (Bayanzag) — Premier dinosaur fossil discovery site</li>
+          <li>Yolyn Am Ice Canyon — Frozen year-round deep in the Gurvan Saikhan Mountains</li>
+          <li>Wild Bactrian camel trekking across the open desert</li>
+          <li>Khövsgöl oasis — Underground spring-fed wetland amid the dunes</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ── BEST TIME ── -->
+  <section id="best-time">
+    <span class="section-label">Planning Your Trip</span>
+    <h2 class="section-title">When to Visit Mongolia</h2>
+    <div class="divider" style="margin:0 auto 24px"></div>
+    <p style="color:rgba(245,237,216,0.65);max-width:580px;margin:0 auto;font-style:italic">Mongolia's summer season runs June through August. Plan around the Naadam Festival in July for the full cultural immersion.</p>
+    <div class="months">
+      <div class="month">Jan</div>
+      <div class="month">Feb</div>
+      <div class="month">Mar</div>
+      <div class="month">Apr</div>
+      <div class="month">May</div>
+      <div class="month good">June</div>
+      <div class="month peak">July ★</div>
+      <div class="month peak">August ★</div>
+      <div class="month good">September</div>
+      <div class="month">Oct</div>
+      <div class="month">Nov</div>
+      <div class="month">Dec</div>
+    </div>
+    <p style="margin-top:24px;font-size:0.82rem;color:rgba(245,237,216,0.35)">★ Peak season &nbsp;·&nbsp; Green = Good shoulder season</p>
+  </section>
+
+  <!-- ── TIPS ── -->
+  <section id="tips">
+    <span class="section-label">Traveler's Guide</span>
+    <h2 class="section-title">Essential Tips</h2>
+    <div class="divider"></div>
+    <div class="tips-grid">
+      <div class="tip-card">
+        <div class="tip-icon">🏕️</div>
+        <h3>Accommodation</h3>
+        <p>Stay in traditional ger camps run by nomadic families. Book well in advance for July — Naadam week fills up fast across the country.</p>
+      </div>
+      <div class="tip-card">
+        <div class="tip-icon">🚙</div>
+        <h3>Getting Around</h3>
+        <p>Rent a 4WD with a local driver-guide. Most roads outside Ulaanbaatar are unpaved tracks — a Russian UAZ van or Toyota Land Cruiser is essential.</p>
+      </div>
+      <div class="tip-card">
+        <div class="tip-icon">🧥</div>
+        <h3>What to Pack</h3>
+        <p>Layering is key. Summer days can be warm, but nights drop sharply even in July. Always carry waterproofs, sun protection, and insect repellent.</p>
+      </div>
+      <div class="tip-card">
+        <div class="tip-icon">🌿</div>
+        <h3>Respect &amp; Culture</h3>
+        <p>Accept food and drink offered by hosts with both hands. Walk around an ovoo stone cairn clockwise. Remove hats when entering a ger.</p>
+      </div>
+    </div>
+  </section>
+
+<!-- ADDITIONS TO INJECT AFTER #tips SECTION AND BEFORE #contact -->
+
+<!-- ── ABOUT ── -->
+<section id="about" style="background:linear-gradient(180deg,#100B06 0%,#1A120B 100%);padding:100px 64px;">
+  <div style="max-width:900px;margin:0 auto;">
+    <span class="section-label">About Wild Mongolia</span>
+    <h2 class="section-title">Our Story &amp; Mission</h2>
+    <div class="divider"></div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start;">
+      <div>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">Wild Mongolia was founded by a group of Mongolian and international travelers united by one conviction: that Mongolia is among the most extraordinary places on Earth, and that too few people know how to reach its heart.</p>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">We are not a booking agency. We are a knowledge resource — a living guide built from years of firsthand exploration across every aimag, every season, and every terrain Mongolia offers. Our writers have slept in gers during Naadam, crossed the Gobi by camel, and trekked to Tsaatan reindeer camps in deep winter.</p>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">Our mission is simple: equip curious travelers with honest, detailed, practically useful information so they can plan journeys that are both meaningful and responsible. We believe tourism done well benefits nomadic communities directly and sustains the fragile steppe ecosystem that makes Mongolia unique.</p>
+      </div>
+      <div>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">Mongolia receives fewer than one million international visitors per year — a fraction of neighboring countries — yet it holds more wilderness, more cultural continuity, and more raw geographical drama than nearly anywhere else on the planet. That relative obscurity is precisely what makes it special.</p>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">Every article, itinerary, and tip on this site comes from direct experience. We do not accept payment for editorial coverage, do not promote operators we haven't vetted, and do not exaggerate conditions in either direction. If a road is genuinely impassable in early June, we say so. If a ger camp has declined in quality, we update our recommendations.</p>
+        <p style="color:rgba(245,237,216,0.85);">Mongolia deserves honest storytelling. That is what we are here to provide.</p>
+      </div>
+    </div>
+    <div style="display:flex;gap:40px;margin-top:48px;flex-wrap:wrap;">
+      <div style="border-left:2px solid var(--sand);padding-left:16px;">
+        <div style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:900;color:var(--sand);">8+</div>
+        <div style="font-size:0.82rem;color:rgba(245,237,216,0.55);">Years exploring Mongolia</div>
+      </div>
+      <div style="border-left:2px solid var(--sand);padding-left:16px;">
+        <div style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:900;color:var(--sand);">21</div>
+        <div style="font-size:0.82rem;color:rgba(245,237,216,0.55);">Aimags (provinces) visited</div>
+      </div>
+      <div style="border-left:2px solid var(--sand);padding-left:16px;">
+        <div style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:900;color:var(--sand);">100%</div>
+        <div style="font-size:0.82rem;color:rgba(245,237,216,0.55);">Independently written</div>
+      </div>
+      <div style="border-left:2px solid var(--sand);padding-left:16px;">
+        <div style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:900;color:var(--sand);">0</div>
+        <div style="font-size:0.82rem;color:rgba(245,237,216,0.55);">Paid editorial placements</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TRAVEL ARTICLES / BLOG ── -->
+<section id="articles" style="background:#150E08;padding:100px 64px;">
+  <span class="section-label">Travel Journal</span>
+  <h2 class="section-title">In-Depth Articles &amp; Guides</h2>
+  <div class="divider"></div>
+
+  <!-- Article 1: Full long-form -->
+  <article style="border-bottom:1px solid var(--border);padding-bottom:64px;margin-bottom:64px;">
+    <span class="section-label">Practical Guide</span>
+    <h3 style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;margin-bottom:16px;line-height:1.2;">How to Plan a Two-Week Mongolia Summer Itinerary</h3>
+    <p style="color:rgba(245,237,216,0.5);font-size:0.82rem;letter-spacing:0.1em;margin-bottom:24px;">JUNE 2025 · 12 MIN READ</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:48px;">
+      <div>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">Two weeks is the sweet spot for a Mongolia summer journey — long enough to experience meaningful contrast between regions, short enough to manage without burning out on long road transfers. The key is resisting the temptation to cover everything at once. Mongolia rewards depth over breadth.</p>
+        <h4 style="font-family:'Playfair Display',serif;color:var(--sand);margin:24px 0 10px;">Days 1–2: Ulaanbaatar Arrival &amp; Orientation</h4>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">Arrive in Ulaanbaatar and use your first full day to adjust to the altitude (1,350 m), organize permits, and meet your guide. The National Museum of Mongolia on Sukhbaatar Square is essential — its exhibits on nomadic history, the Mongol Empire, and traditional dress provide crucial context for everything you'll encounter in the countryside. In the evening, explore the Narantuul Market (the so-called "Black Market") for traditional dels, felt goods, and cashmere at local prices.</p>
+        <h4 style="font-family:'Playfair Display',serif;color:var(--sand);margin:24px 0 10px;">Days 3–5: Orkhon Valley — The Cultural Core</h4>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">Drive west from Ulaanbaatar (approximately 5–6 hours with stops) into the Orkhon Valley. This UNESCO World Heritage landscape follows the Orkhon River through a succession of ancient capitals, nomadic encampments, and dramatic basalt formations. Stay in a family-run ger camp rather than a tourist lodge — the difference in authenticity is significant. On day four, ride horses to Orkhon Waterfall (Ulaan Tsutgalan), a striking 20-meter cascade that runs with full force in July. Reserve time for the ruins of Karakorum and the surviving walls of Erdene Zuu Monastery, founded in 1586 on the site of Chinggis Khan's capital.</p>
+        <h4 style="font-family:'Playfair Display',serif;color:var(--sand);margin:24px 0 10px;">Days 6–9: Lake Khövsgöl — The Blue Pearl</h4>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">Fly or drive north to Mörön, then transfer to the lakeside village of Khatgal at the southern tip of Lake Khövsgöl. At 2,760 km² and 262 meters deep, this is one of the world's great freshwater bodies — and in July it is spectacular: deep blue, mirror-calm at dawn, ringed with ancient pine forests and wildflower meadows. Kayak the western shore, trek into the surrounding hills, or arrange a horse trek northward toward the Darkhad Depression. If your budget permits, organize a two-day ride to a Tsaatan reindeer herder camp — the Dukha people's relationship with their animals is unlike anything you will encounter elsewhere.</p>
+      </div>
+      <div>
+        <h4 style="font-family:'Playfair Display',serif;color:var(--sand);margin:0 0 10px;">Days 10–12: Gobi Desert — The Great Silence</h4>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">Fly from Mörön back to Ulaanbaatar and catch a connection south to Dalanzadgad in the South Gobi. The contrast with the green north is staggering. The Gobi's Three Beauties National Park (Gurvan Saikhan) protects a range of extraordinary landscapes — the Yolyn Am ice canyon, where frozen water persists even in August in a narrow gorge, is usually the first stop. From there, drive to the Flaming Cliffs of Bayanzag, where Roy Chapman Andrews discovered the first dinosaur eggs known to science in 1923. The amber light at sunset here is extraordinary.</p>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">End your Gobi days at the Khongoryn Els sand dunes — the great Singing Dunes that rise 300 meters from the flat desert floor. Climb to the ridge at sunset, listen for the low harmonic drone produced by wind moving across the sand face, and watch the light turn the dunes orange-red before the cold desert night descends rapidly.</p>
+        <h4 style="font-family:'Playfair Display',serif;color:var(--sand);margin:24px 0 10px;">Days 13–14: Return &amp; Final Ulaanbaatar Day</h4>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">Fly back to Ulaanbaatar and use your final full day well: visit the Gandantegchinlen Monastery — the country's largest active Buddhist monastery — then explore the cashmere boutiques around Peace Avenue for quality gifts. Mongolian cashmere is among the finest in the world; reputable brands like Gobi and Evseg offer authenticated products at significantly lower prices than you'll find abroad.</p>
+        <h4 style="font-family:'Playfair Display',serif;color:var(--sand);margin:24px 0 10px;">Practical Notes for This Itinerary</h4>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:10px;">Budget approximately USD 150–220 per day for a mid-range trip including accommodation, a driver-guide, domestic flights, and meals. Book domestic flights at least 6 weeks in advance for July — they sell out. A quality driver-guide who speaks English and knows the terrain is your single most important investment; the right person transforms a good trip into a great one.</p>
+        <p style="color:rgba(245,237,216,0.85);">Carry cash (Mongolian tögrög, MNT). Rural areas have no ATMs and card payments are not accepted outside Ulaanbaatar. Exchange currency at the State Department Store in UB or at your hotel before leaving the capital.</p>
+      </div>
+    </div>
+  </article>
+
+  <!-- Article 2 -->
+  <article style="border-bottom:1px solid var(--border);padding-bottom:64px;margin-bottom:64px;">
+    <span class="section-label">Culture &amp; Festivals</span>
+    <h3 style="font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:700;margin-bottom:16px;line-height:1.2;">Naadam: Mongolia's Greatest Festival Explained</h3>
+    <p style="color:rgba(245,237,216,0.5);font-size:0.82rem;letter-spacing:0.1em;margin-bottom:24px;">MAY 2025 · 8 MIN READ</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:48px;">
+      <div>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">Naadam — formally Eriin Gurvan Naadam, "the three games of men" — is Mongolia's national celebration, held annually from July 11 to 13. It marks the anniversary of the 1921 revolution that established the Mongolian state, but its roots reach back centuries to the training festivals of Chinggis Khan's armies. Today it is both a UNESCO Intangible Cultural Heritage event and the most vivid expression of Mongolian identity you will encounter as a visitor.</p>
+        <h4 style="font-family:'Playfair Display',serif;color:var(--sand);margin:24px 0 10px;">The Opening Ceremony</h4>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">The main ceremony at Ulaanbaatar's National Stadium begins on July 11 and is a genuine spectacle: thousands of performers in traditional costume recreate the raising of Chinggis Khan's nine white horse-tail standards, accompanied by throat singers, horse-head fiddle orchestras, and military formations in historical armor. Tickets sell out months in advance — book through your hotel concierge or a licensed tour operator as soon as you arrive.</p>
+        <h4 style="font-family:'Playfair Display',serif;color:var(--sand);margin:24px 0 10px;">The Three Games</h4>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;"><strong style="color:var(--cream);">Wrestling (Bökh):</strong> Mongolian wrestling has no weight categories and no time limit — a match continues until one competitor touches the ground with any body part other than feet and hands. Champions earn the title of Lion (Arslan), Elephant (Zaан), Falcon (Garuda), or Titan (Аvraga) depending on how many consecutive Naadams they win. The wrestlers' distinctive open-fronted jackets (zodog) are said to have originated when a woman won the championship and the defeated men tore open the front of the jacket to prove the winner was female — a likely legend but one that explains why the garment has remained unchanged for centuries.</p>
+      </div>
+      <div>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;"><strong style="color:var(--cream);">Horse Racing (Мoriin Uraldan):</strong> Unlike Western horse racing, Mongolian races are won by the horse, not the jockey. Children aged 5–12 ride bareback across open steppe distances of 15–30 km depending on horse age category. The five-year-old horse race (soyolon) is typically the most prestigious. The first horse to finish earns the title Tumny Ekh ("Leader of Ten Thousand") and its child rider is celebrated as much as the animal. The finishing line near Ulaanbaatar's Khui Doloon Khudag raceground is reached by thousands of spectators on horseback and in vehicles — an experience unlike any sports event in the world.</p>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;"><strong style="color:var(--cream);">Archery (Surharban):</strong> Both men and women compete in archery using traditional composite bows made from layered horn, sinew, and birch. Targets are small cylindrical leather cylinders (sur) arranged in rows on the ground — unlike vertical targets in Western archery. Competitors stand 75 meters back and must knock a set number of sur from each row. Women shoot at closer range. Successful shots are announced by judges using a melodic call (uukhai) and distinctive hand gestures.</p>
+        <h4 style="font-family:'Playfair Display',serif;color:var(--sand);margin:24px 0 10px;">Beyond Ulaanbaatar: Rural Naadams</h4>
+        <p style="color:rgba(245,237,216,0.85);">Every aimag (province) and many soum (districts) hold their own Naadam celebrations, typically on July 11 but sometimes extending across a weekend. Rural Naadams are often more intimate and more atmospheric than the capital's event — competitors and spectators are neighbors who have known each other for generations, and the merrymaking continues long after the formal games conclude. If your itinerary allows, attending a soum Naadam in Arkhangai or Övörkhangai province is an experience the capital event cannot replicate.</p>
+      </div>
+    </div>
+  </article>
+
+  <!-- Article 3 -->
+  <article style="border-bottom:1px solid var(--border);padding-bottom:64px;margin-bottom:64px;">
+    <span class="section-label">Wildlife &amp; Nature</span>
+    <h3 style="font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:700;margin-bottom:16px;line-height:1.2;">Wildlife of the Mongolian Steppe: What to Look For in Summer</h3>
+    <p style="color:rgba(245,237,216,0.5);font-size:0.82rem;letter-spacing:0.1em;margin-bottom:24px;">APRIL 2025 · 7 MIN READ</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:48px;">
+      <div>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">Mongolia's wildlife is a subject too rarely discussed in travel writing. Most visitors come for the human culture and landscape, and are then astonished to discover a wildlife density that rivals the Serengeti in terms of sheer species richness and behavioral spectacle. Summer — when the steppe grass is high and rivers run full — is the optimal season for most species.</p>
+        <h4 style="font-family:'Playfair Display',serif;color:var(--sand);margin:24px 0 10px;">Mongolian Gazelle (Procapra gutturosa)</h4>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">The Eastern steppe hosts the world's largest population of white-tailed gazelle — estimates range from 800,000 to 1.5 million animals. Summer migrations can produce columns of animals stretching beyond the visible horizon, moving at speeds of up to 65 km/h and navigating around obstacles with an intelligence that belies their delicate appearance. The best viewing is from the road between Choibalsan and Baruun-Urt, particularly in July when young fawns are old enough to travel with the herds.</p>
+        <h4 style="font-family:'Playfair Display',serif;color:var(--sand);margin:24px 0 10px;">Snow Leopard (Panthera uncia)</h4>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">Mongolia is home to approximately 1,000 snow leopards — roughly 10% of the global wild population — primarily in the Altai, Khangai, and Khentii mountain ranges. Sightings are rare and require days of patience in high-altitude terrain with a specialist guide. The best concentrations are in the Tost Mountains of South Gobi aimag, where the Snow Leopard Conservation Foundation has been running camera-trap research since 2008. Several operators now offer multi-day tracking experiences in collaboration with researchers — these trips contribute directly to conservation funding.</p>
+      </div>
+      <div>
+        <h4 style="font-family:'Playfair Display',serif;color:var(--sand);margin:0 0 10px;">Przewalski's Horse (Equus ferus przewalskii)</h4>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">The takhi — the only truly wild horse species surviving in the world — was extinct in the wild by 1969, surviving only in European zoos. A heroic reintroduction program that began in 1992 has re-established herds in Hustai National Park (90 km west of Ulaanbaatar), Khomiin Tal, and Khar Us Nuur. Hustai is the most accessible: a day trip from the capital brings you into reliable contact with herds of 10–40 animals grazing on the open hillsides. The best light for photography is 6–8 AM when the horses descend from overnight high ground to morning water sources.</p>
+        <h4 style="font-family:'Playfair Display',serif;color:var(--sand);margin:24px 0 10px;">Steppe Eagle &amp; Raptors</h4>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">Mongolia is one of the great raptor destinations on Earth. The open steppe provides almost unlimited hunting territory for steppe eagles, saker falcons (the national bird), upland buzzards, and black kites. Birdwatchers should add Mongol Els dunes (Central aimag) and the Khurkh River valley (Khentii) to any itinerary — both are significant breeding sites for species rarely seen elsewhere.</p>
+        <h4 style="font-family:'Playfair Display',serif;color:var(--sand);margin:24px 0 10px;">Gobi Bear (Ursus arctos gobiensis)</h4>
+        <p style="color:rgba(245,237,216,0.85);">With fewer than 50 individuals remaining, the Gobi bear (Mazaalai) is critically endangered and remains one of the world's rarest large mammals. It subsists entirely on desert plants and insects in the Great Gobi Strictly Protected Area — the world's second-largest protected desert reserve. Sightings are exceptionally rare, but supporting tourism operators that fund the Gobi bear feeding program directly contributes to the species' survival.</p>
+      </div>
+    </div>
+  </article>
+
+  <!-- Article 4 — shorter -->
+  <article style="border-bottom:1px solid var(--border);padding-bottom:64px;margin-bottom:64px;">
+    <span class="section-label">Food &amp; Culture</span>
+    <h3 style="font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:700;margin-bottom:16px;line-height:1.2;">Mongolian Food: What to Eat, What to Expect, and How to Be a Gracious Guest</h3>
+    <p style="color:rgba(245,237,216,0.5);font-size:0.82rem;letter-spacing:0.1em;margin-bottom:24px;">MARCH 2025 · 5 MIN READ</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:48px;">
+      <div>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">Mongolian cuisine is built on two ingredients: meat and dairy. The nomadic diet is a direct expression of the pastoral economy — herders raise horses, cattle, sheep, goats, and camels, and nearly everything eaten comes from these animals. Vegetarians can be accommodated in Ulaanbaatar's growing restaurant scene, but in the countryside, dietary flexibility is both a practical necessity and a sign of cultural respect.</p>
+        <h4 style="font-family:'Playfair Display',serif;color:var(--sand);margin:24px 0 10px;">The Essential Dishes</h4>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:10px;"><strong style="color:var(--cream);">Tsuivan:</strong> Hand-pulled noodles fried with fatty mutton and vegetables — the most comforting dish on the steppe, typically eaten for lunch.</p>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:10px;"><strong style="color:var(--cream);">Buuz:</strong> Steamed dumplings filled with seasoned mutton or beef. Eaten at Tsagaan Sar (Lunar New Year) in the thousands per family, but available year-round. The pleating technique varies by region.</p>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:10px;"><strong style="color:var(--cream);">Khorkhog:</strong> Mutton cooked with hot stones inside a sealed milk container — a celebratory dish prepared for special guests. If you are invited to eat khorkhog, you are being honored. Hold the hot stones briefly in your hands (this is considered healthful and good luck) before passing them around.</p>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;"><strong style="color:var(--cream);">Boodog:</strong> The more extreme version of khorkhog — an entire goat or marmot cooked from the inside using hot stones inserted through the neck. Prepared outdoors, often as a festive spectacle.</p>
+      </div>
+      <div>
+        <h4 style="font-family:'Playfair Display',serif;color:var(--sand);margin:0 0 10px;">Dairy: The White Food</h4>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">Summer is white-food season. Mongolians call dairy products tsagaan idee ("white food") and consider them sacred. You will encounter suutei tsai (salted milk tea — the national drink, served at every meal and every social occasion), airag (fermented mare's milk, mildly alcoholic and intensely flavored), aaruul (dried curd with the texture of chalk and a complex sour taste), and öröm (clotted cream skimmed from boiled milk, extraordinary with bread). Accept everything offered. Declining food in a ger is considered impolite.</p>
+        <h4 style="font-family:'Playfair Display',serif;color:var(--sand);margin:24px 0 10px;">Ger Etiquette: The Essential Rules</h4>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:10px;">Enter a ger by stepping over the threshold — never step on it. Move clockwise inside. Sit to the west (left as you enter) if you are a guest. The area at the back, opposite the door, is reserved for honored elders and the household altar.</p>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:10px;">Receive food and drink with both hands or the right hand supported at the elbow by the left. Never turn down suutei tsai — drink at least a sip before placing the bowl down. Do not whistle inside a ger. Do not lean against the support poles (bagana).</p>
+        <p style="color:rgba(245,237,216,0.85);">Bringing small gifts is appreciated — candy, biscuits, and fruit for children; vodka or cigarettes for adult men (though neither is required). Leaving a small cash gift when departing a family homestay is respectful and economically significant to rural families.</p>
+      </div>
+    </div>
+  </article>
+
+  <!-- Article 5 — Shorter practical -->
+  <article>
+    <span class="section-label">Responsible Travel</span>
+    <h3 style="font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:700;margin-bottom:16px;line-height:1.2;">How to Travel Responsibly in Mongolia's Fragile Steppe Ecosystem</h3>
+    <p style="color:rgba(245,237,216,0.5);font-size:0.82rem;letter-spacing:0.1em;margin-bottom:24px;">FEBRUARY 2025 · 4 MIN READ</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:48px;">
+      <div>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">Mongolia's apparent vastness can create the illusion that it is indestructible. It is not. The steppe ecosystem is in fact highly sensitive to overgrazing, vehicle tracks, and the cumulative pressure of poorly managed tourism. Responsible travel in Mongolia is not a moral abstraction — it is a practical necessity if the landscapes and cultures that draw visitors here are to survive for the next generation.</p>
+        <h4 style="font-family:'Playfair Display',serif;color:var(--sand);margin:24px 0 10px;">Stay on Tracks, Not Off Them</h4>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">The single most damaging thing a tourist vehicle can do in Mongolia is create new tire tracks across open steppe. Vehicle scars on the fragile grass-root layer can take 20–50 years to heal. Insist that your driver stays on existing tracks, even when they are rough. If your guide suggests a shortcut across open land, decline.</p>
+        <h4 style="font-family:'Playfair Display',serif;color:var(--sand);margin:24px 0 10px;">Support Community-Based Tourism</h4>
+        <p style="color:rgba(245,237,216,0.85);">Community-based tourism (CBT) operators channel tourism income directly to nomadic families rather than to urban intermediaries. Look for operators certified by the Mongolian Tourism Association who partner with specific families in specific regions. Paying a family directly for a ger stay, a horse trek, or a cooked meal is more economically significant than any lodge booking.</p>
+      </div>
+      <div>
+        <h4 style="font-family:'Playfair Display',serif;color:var(--sand);margin:0 0 10px;">Pack Out Everything You Pack In</h4>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">Waste infrastructure outside Ulaanbaatar is minimal to nonexistent. Carry reusable bags, refuse plastic water bottles (bring a filtered bottle and refill from rivers — Mongolia's river water is generally clean above human settlement), and ensure your driver does not leave food waste at camp sites. Plastic bags, carried by wind across the open steppe, are a significant environmental problem in Mongolia's grassland regions.</p>
+        <h4 style="font-family:'Playfair Display',serif;color:var(--sand);margin:24px 0 10px;">Photography &amp; Consent</h4>
+        <p style="color:rgba(245,237,216,0.85);margin-bottom:18px;">Always ask before photographing people, especially during Naadam and at family ger stays. The respectful Mongolian approach is to photograph ceremonial or landscape subjects freely but to establish a brief human connection before photographing individuals. Children are often photographed without consent in rural tourism contexts — model respectful behavior for your fellow travelers.</p>
+        <h4 style="font-family:'Playfair Display',serif;color:var(--sand);margin:24px 0 10px;">Fossil &amp; Artifact Protection</h4>
+        <p style="color:rgba(245,237,216,0.85);">Removing fossils, stones, or archaeological artifacts from Mongolia is illegal and carries significant fines and potential imprisonment. The Gobi Desert is one of the richest paleontological sites on Earth — the temptation to pocket a fragment of ancient bone or pottery should be firmly resisted. Report any significant finds to your guide and, if possible, to the nearest sum (district) authority.</p>
+      </div>
+    </div>
+  </article>
+</section>
+
+<!-- ── FAQ ── -->
+<section id="faq" style="background:#1A120B;padding:100px 64px;">
+  <span class="section-label">Common Questions</span>
+  <h2 class="section-title">Frequently Asked Questions</h2>
+  <div class="divider"></div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:32px;max-width:1100px;">
+    <div style="background:var(--dark-card);border:1px solid var(--border);border-top:3px solid var(--sand);padding:28px 24px;">
+      <h4 style="font-family:'Playfair Display',serif;font-size:1.1rem;margin-bottom:12px;">Do I need a visa to visit Mongolia?</h4>
+      <p style="font-size:0.9rem;color:rgba(245,237,216,0.75);">Citizens of 74 countries — including the USA, UK, EU nations, Australia, and Japan — can enter Mongolia visa-free for stays of up to 30 days. Other nationalities require a tourist visa obtainable from Mongolian embassies. Always verify current requirements with the official Mongolian Immigration website before travel, as agreements change.</p>
+    </div>
+    <div style="background:var(--dark-card);border:1px solid var(--border);border-top:3px solid var(--sand);padding:28px 24px;">
+      <h4 style="font-family:'Playfair Display',serif;font-size:1.1rem;margin-bottom:12px;">Is Mongolia safe for solo travelers?</h4>
+      <p style="font-size:0.9rem;color:rgba(245,237,216,0.75);">Mongolia is generally safe for solo travelers, including women. Mongolians are among the most hospitable people in Asia, and violent crime against tourists is very rare. The main risks are practical: getting lost in the countryside without a guide, vehicle breakdowns in remote areas, and petty theft in Ulaanbaatar's busy markets. Hiring a driver-guide eliminates most countryside risks entirely.</p>
+    </div>
+    <div style="background:var(--dark-card);border:1px solid var(--border);border-top:3px solid var(--sand);padding:28px 24px;">
+      <h4 style="font-family:'Playfair Display',serif;font-size:1.1rem;margin-bottom:12px;">What currency is used and can I use credit cards?</h4>
+      <p style="font-size:0.9rem;color:rgba(245,237,216,0.75);">The Mongolian tögrög (MNT) is the national currency. USD is widely accepted as a secondary currency. Credit cards work in Ulaanbaatar hotels, larger restaurants, and some shops; outside the capital, cash is essential. Carry a substantial cash reserve before leaving Ulaanbaatar — ATMs do not exist in rural Mongolia.</p>
+    </div>
+    <div style="background:var(--dark-card);border:1px solid var(--border);border-top:3px solid var(--sand);padding:28px 24px;">
+      <h4 style="font-family:'Playfair Display',serif;font-size:1.1rem;margin-bottom:12px;">What vaccines or health precautions do I need?</h4>
+      <p style="font-size:0.9rem;color:rgba(245,237,216,0.75);">Consult a travel health clinic 6–8 weeks before departure. Recommended vaccinations typically include hepatitis A and B, rabies (for those planning extended rural travel), and tickborne encephalitis. Altitude adjustment is minor but noticeable in Ulaanbaatar (1,350 m) and significant in the Altai (up to 4,000+ m). Pack a comprehensive first-aid kit — rural clinics are sparse and often under-equipped.</p>
+    </div>
+    <div style="background:var(--dark-card);border:1px solid var(--border);border-top:3px solid var(--sand);padding:28px 24px;">
+      <h4 style="font-family:'Playfair Display',serif;font-size:1.1rem;margin-bottom:12px;">How do I get around Mongolia without a tour?</h4>
+      <p style="font-size:0.9rem;color:rgba(245,237,216,0.75);">Independent travel in Mongolia is possible but demanding. Long-distance buses and shared minivans (mikr) connect major aimag centers from Ulaanbaatar's Dragon Centre. Domestic flights serve Dalanzadgad, Mörön, Ölgii, Choibalsan, and other centers. Hitchhiking is practiced by locals and generally safe on main roads. However, the absence of road signs, the complexity of steppe navigation, and the frequency of vehicle breakdowns make a local driver-guide strongly advisable for first-time visitors.</p>
+    </div>
+    <div style="background:var(--dark-card);border:1px solid var(--border);border-top:3px solid var(--sand);padding:28px 24px;">
+      <h4 style="font-family:'Playfair Display',serif;font-size:1.1rem;margin-bottom:12px;">What is the weather like in summer?</h4>
+      <p style="font-size:0.9rem;color:rgba(245,237,216,0.75);">Mongolia's summer (June–August) is warm and mostly dry, with daytime temperatures ranging from 20°C on the steppe to 40°C in the Gobi. Nights cool sharply even in July — temperatures of 5–10°C are common at altitude. Afternoon thunderstorms are frequent in July and August, passing quickly. The UV index is very high due to altitude and latitude — strong sun protection is essential every day.</p>
+    </div>
+    <div style="background:var(--dark-card);border:1px solid var(--border);border-top:3px solid var(--sand);padding:28px 24px;">
+      <h4 style="font-family:'Playfair Display',serif;font-size:1.1rem;margin-bottom:12px;">Can I ride horses with no prior experience?</h4>
+      <p style="font-size:0.9rem;color:rgba(245,237,216,0.75);">Yes — but begin with short supervised rides near a ger camp before attempting multi-day treks. Mongolian horses are small, sure-footed, and accustomed to carrying inexperienced riders. The Mongolian riding style (short stirrups, forward seat) differs from Western styles and takes adjustment. Wear long trousers and boots with a heel for all rides, regardless of experience level.</p>
+    </div>
+    <div style="background:var(--dark-card);border:1px solid var(--border);border-top:3px solid var(--sand);padding:28px 24px;">
+      <h4 style="font-family:'Playfair Display',serif;font-size:1.1rem;margin-bottom:12px;">When exactly is Naadam and how do I get tickets?</h4>
+      <p style="font-size:0.9rem;color:rgba(245,237,216,0.75);">The national Naadam runs July 11–13 every year in Ulaanbaatar. The opening ceremony at the National Stadium (July 11, morning) requires tickets — purchase through your hotel, a licensed tour operator, or at the stadium box office from early July. Horse racing takes place at Khui Doloon Khudag racecourse 40 km outside the city; this is free to attend and is in many ways the more memorable experience.</p>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- ── AD BANNER 2 ── -->
+  <div class="ad-wrap">
+    <ins class="adsbygoogle" style="display: block; height: 280px;" data-ad-client="ca-pub-8081351372251773" data-ad-slot="" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done"><div id="aswift_2_host" style="border: none; height: 280px; width: 1200px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"></div></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <span class="section-label">Get in Touch</span>
+        <h2 class="section-title">Plan Your<br>Journey</h2>
+        <div class="divider"></div>
+        <h3>Let's Make It Happen</h3>
+        <p>Whether you have questions about a specific region, want a custom itinerary, or simply need advice on the best time to visit, we're here to help.</p>
+        <div class="contact-detail">
+          <span class="contact-detail-icon">✉</span>
+          <div class="contact-detail-text"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3742594245774259424519445e4352">unur@unur.site</a></div>
+        </div>
+        <div class="contact-detail">
+          <span class="contact-detail-icon">📍</span>
+          <div class="contact-detail-text">Ulaanbaatar, Mongolia<br>Sukhbaatar District</div>
+        </div>
+        <div class="contact-detail">
+          <span class="contact-detail-icon">🕐</span>
+          <div class="contact-detail-text">Mon–Fri, 9 AM – 6 PM (ULAT)<br>Response within 24 hours</div>
+        </div>
+      </div>
+      <div>
+        <div class="contact-form">
+          <input type="text" placeholder="Your full name">
+          <input type="email" placeholder="Email address">
+          <select>
+            <option value="" disabled="" selected="">Which region interests you?</option>
+            <option>Western Mongolia</option>
+            <option>Northern Mongolia</option>
+            <option>Central Mongolia</option>
+            <option>Eastern Mongolia</option>
+            <option>The Gobi Desert</option>
+            <option>Multi-region journey</option>
+          </select>
+          <textarea placeholder="Tell us about your dream Mongolia trip — travel dates, group size, interests..."></textarea>
+          <button type="button" onclick="alert(&#39;Thank you for reaching out! We will be in touch within 24 hours.&#39;)">Send Message</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PRIVACY POLICY ── -->
+  <section id="privacy">
+    <div class="privacy-inner">
+      <span class="section-label">Legal</span>
+      <h2>Privacy Policy</h2>
+      <div class="divider"></div>
+      <p><em>Last updated: Jan 2026</em></p>
+
+      <h3>1. Information We Collect</h3>
+      <p>Wild Mongolia ("we", "our", or "us") collects information you voluntarily provide when you submit our contact form, including your name, email address, and travel preferences. We also automatically collect certain technical information when you visit our website, such as your IP address, browser type, and pages visited.</p>
+
+      <h3>2. How We Use Your Information</h3>
+      <ul>
+        <li>To respond to your travel enquiries and provide trip planning assistance</li>
+        <li>To send you relevant travel information and updates (only with your consent)</li>
+        <li>To improve our website content and user experience</li>
+        <li>To comply with applicable laws and regulations</li>
+      </ul>
+
+      <h3>3. Google AdSense &amp; Cookies</h3>
+      <p>This website uses Google AdSense to display advertisements. Google, as a third-party vendor, uses cookies to serve ads based on your prior visits to this and other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your visit to our site.</p>
+      <p>You may opt out of personalised advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank">Google Ads Settings</a>. Alternatively, you may opt out of a third-party vendor's use of cookies at <a href="https://www.aboutads.info/choices/" target="_blank">www.aboutads.info</a>.</p>
+
+      <h3>4. Pinterest Domain Verification</h3>
+      <p>This website includes a Pinterest domain verification meta tag. Pinterest may collect information in accordance with their own privacy policy when you interact with Pinterest-related features or content on this site.</p>
+
+      <h3>5. Data Sharing</h3>
+      <p>We do not sell, trade, or rent your personal information to third parties. We may share anonymised, aggregated data for analytical purposes. We may disclose your information when required by law or to protect the rights, property, or safety of our users.</p>
+
+      <h3>6. Data Retention</h3>
+      <p>We retain personal information submitted through our contact form for a maximum of 24 months, after which it is securely deleted unless you have an active booking or correspondence with us.</p>
+
+      <h3>7. Your Rights</h3>
+      <p>You have the right to access, correct, or request deletion of your personal data at any time. To exercise these rights, please contact us at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="74011a010634011a01065a071d0011">unur@unur.site</a>.</p>
+
+      <h3>8. Changes to This Policy</h3>
+      <p>We may update this Privacy Policy from time to time. We will notify you of any significant changes by posting the updated policy on this page with a revised date.</p>
+
+      <h3>9. Contact Us</h3>
+      <p>For any privacy-related questions, please email us at <a href="/cdn-cgi/l/email-protection#a3d6cdd6d1e3d6cdd6d18dd0cad7c6"><span class="__cf_email__" data-cfemail="f4819a8186b4819a8186da879d8091">unur@unur.site</span></a>.</p>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h2>Wild Mongolia</h2>
+        <p>Inspiring journeys across the world's greatest untamed wilderness. Experience the land of the eternal blue sky.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Regions</h4>
+        <ul>
+          <li><a href="https://unur.site/#regions-detail">Western Mongolia</a></li>
+          <li><a href="https://unur.site/#regions-detail">Northern Mongolia</a></li>
+          <li><a href="https://unur.site/#regions-detail">Central Mongolia</a></li>
+          <li><a href="https://unur.site/#regions-detail">Eastern Mongolia</a></li>
+          <li><a href="https://unur.site/#regions-detail">The Gobi Desert</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Information</h4>
+        <ul>
+          <li><a href="https://unur.site/#best-time">When to Visit</a></li>
+          <li><a href="https://unur.site/#tips">Travel Tips</a></li>
+          <li><a href="https://unur.site/#contact">Contact</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#articles">Travel Articles</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="https://unur.site/#privacy">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Wild Mongolia. All rights reserved.</span>
+      <span>Made with love for the endless steppe.</span>
+    </div>
+  </footer>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    // Hamburger menu toggle
+    const toggle = document.getElementById('nav-toggle');
+    const links  = document.getElementById('nav-links');
+    toggle.addEventListener('click', () => {
+      const open = links.classList.toggle('open');
+      toggle.classList.toggle('open', open);
+      toggle.setAttribute('aria-expanded', open);
+    });
+    // Close menu when a nav link is tapped
+    document.querySelectorAll('.nav-link').forEach(a => {
+      a.addEventListener('click', () => {
+        links.classList.remove('open');
+        toggle.classList.remove('open');
+        toggle.setAttribute('aria-expanded', false);
+      });
+    });
+  </script>
+
+
+<ins class="adsbygoogle adsbygoogle-noablate" data-ad-hi="true" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><div id="aswift_0_host" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;min-height:auto;max-height:none;min-width:auto;max-width:none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./Wild M
